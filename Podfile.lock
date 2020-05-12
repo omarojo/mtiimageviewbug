@@ -1,0 +1,23 @@
+PODS:
+  - MetalPetal/Core (1.9.0)
+  - MetalPetal/Swift (1.9.0):
+    - MetalPetal/Core
+
+DEPENDENCIES:
+  - MetalPetal/Swift (from `https://github.com/MetalPetal/MetalPetal.git`)
+
+EXTERNAL SOURCES:
+  MetalPetal:
+    :git: https://github.com/MetalPetal/MetalPetal.git
+
+CHECKOUT OPTIONS:
+  MetalPetal:
+    :commit: 717360e71745df73a3bd2c65e6373143de83a260
+    :git: https://github.com/MetalPetal/MetalPetal.git
+
+SPEC CHECKSUMS:
+  MetalPetal: 07d93f6b0e8bcdd4da238dbb2b769b5405f183c0
+
+PODFILE CHECKSUM: f52473e9363318584c49f2f84d13953ba494a22b
+
+COCOAPODS: 1.8.4

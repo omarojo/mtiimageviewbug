@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="MetalPetalTests" customModuleProvider="target">
+            <connections>
+                <outlet property="renderView" destination="6gf-ch-E34" id="aDy-6y-svJ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="fcx-54-Ffj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gf-ch-E34" customClass="MTIImageView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6gf-ch-E34" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="C0l-N3-ZEq"/>
+                <constraint firstItem="6gf-ch-E34" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="VW8-dD-v9w"/>
+                <constraint firstAttribute="bottom" secondItem="6gf-ch-E34" secondAttribute="bottom" id="br7-jt-Drr"/>
+                <constraint firstItem="6gf-ch-E34" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qEv-JH-Awz"/>
+                <constraint firstItem="6gf-ch-E34" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="wbj-1G-Ri3"/>
+                <constraint firstItem="6gf-ch-E34" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zdR-wo-PIR"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="139" y="121"/>
+        </view>
+    </objects>
+</document>
